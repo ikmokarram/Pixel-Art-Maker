@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  ikmokarram</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&text=Pixel%Art%Maker">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id = "container">
+    <div class = "panel">
+      <h1 class ="mainTitle">Pixel Art Maker</h1>
+
+      <h2 class = "chooseTitle">Choose Grid Size and Colors</h2>
+      <form id="sizePicker">
+        <span class = "label">Rows: </span>
+        <input type="number" required id="input_height" name="height" min="1" max="30" value="20">
+        <span class = "label">Columns: </span>
+        <input type="number" required id="input_width" name="width" min="1" max="30" value="20">
+        <input type="submit">
+        <input type="color" id="colorPicker">
+      </form>
+
+    </div>
+    <table id="pixel_canvas"></table>
+  </div>
+
+  <script async src="designs.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
